@@ -1,4 +1,4 @@
-<mxfile modified="2020-08-28T02:12:08.982Z" host="app.diagrams.net" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="4LycuKG3XoTIe_Y4llTw" version="13.6.4" type="github">
+<mxfile modified="2020-08-28T02:12:46.051Z" host="app.diagrams.net" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36" etag="dXzjTOn0ZNQMovlM8GtP" version="13.6.4" type="github">
   <diagram id="R5pfA701NaSD8N2ByGOf" name="Page-1">
     <mxGraphModel dx="3206" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -103,12 +103,6 @@
         <mxCell id="q4nYXfPgGUGxlYT1T-ly-3" value="id (PK)&#xa;ticket_id (FK)&#xa;cupon_id (FK)&#xa;user_id (FK)&#xa;product_id (FK)&#xa;cantidad&#xa;precio_unit&#xa;precio_tot" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="q4nYXfPgGUGxlYT1T-ly-2">
           <mxGeometry y="30" width="260" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="q4nYXfPgGUGxlYT1T-ly-15" value="carrito" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;glass=0;comic=0;fillColor=#0000FF;" vertex="1" parent="1">
-          <mxGeometry x="-1770" y="697" width="200" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="q4nYXfPgGUGxlYT1T-ly-16" value="id (PK)&#xa;user_id (FK)&#xa;product_id (FK)&#xa;cantidad&#xa;precio_unit&#xa;status" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="q4nYXfPgGUGxlYT1T-ly-15">
-          <mxGeometry y="30" width="200" height="140" as="geometry" />
-        </mxCell>
         <mxCell id="q4nYXfPgGUGxlYT1T-ly-17" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;" edge="1" parent="1" source="CLIR_dkmVU7LcoB8GXZn-31" target="q4nYXfPgGUGxlYT1T-ly-16">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="-1610" y="660" as="sourcePoint" />
@@ -132,6 +126,15 @@
         </mxCell>
         <mxCell id="q4nYXfPgGUGxlYT1T-ly-12" value="id(pk)&#xa;name&#xa;status" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="q4nYXfPgGUGxlYT1T-ly-11">
           <mxGeometry y="30" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="q4nYXfPgGUGxlYT1T-ly-15" value="carrito" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;fontColor=#FFFFFF;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;glass=0;comic=0;fillColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="-1790" y="760" width="200" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="q4nYXfPgGUGxlYT1T-ly-16" value="id (PK)&#xa;user_id (FK)&#xa;product_id (FK)&#xa;cantidad&#xa;precio_unit&#xa;status" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=15;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="q4nYXfPgGUGxlYT1T-ly-15">
+          <mxGeometry y="30" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="q4nYXfPgGUGxlYT1T-ly-20" value="&lt;span style=&quot;font-size: 29px&quot;&gt;&lt;b&gt;a revisar con LocalStorage&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-1885" y="710" width="390" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
